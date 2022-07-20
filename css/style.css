@@ -186,7 +186,7 @@ body{
 	grid-template-columns: repeat(3, 1fr);
 	width: 100%;
 }
-.match-elements,.group-elements{
+.match-elements{
 	margin: 0 10px 20px 10px;
 	border: 1px solid #E8E8E8;
 	border-radius: 10px;
@@ -194,15 +194,17 @@ body{
 	background-color: lightgray;
 
 }
-.match-elements:hover,.group-elements:hover {
+.match-elements:hover{
     transform: translateY(-20px);
     transition: 0.5s;
 }
 
-.match-flag,.group-title{
+
+.match-flag{
 	display: flex;
 	justify-content: center;
 }
+
 .match-flag img,.match-flag h5{
 	padding: 10px;
 }
@@ -227,6 +229,24 @@ body{
 	font-size: 15px;
 }
 
+.group-elements{
+	margin: 0 10px 20px 10px;
+	border: 1px solid #E8E8E8;
+	border-radius: 10px;
+	padding: 35px 20px 40px 20px;
+	background-color: lightgray;
+
+}
+.group-elements:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+
+.group-title{
+	display: flex;
+	justify-content: center;
+}
 .group-details{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
